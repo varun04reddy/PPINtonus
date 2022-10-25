@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb 25 11:32:43 2021
 
-@author: 833161
-"""
 import keras
 import numpy as np
 from keras import models
