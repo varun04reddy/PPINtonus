@@ -1,4 +1,6 @@
 # PPINtonus
+![image](https://user-images.githubusercontent.com/115124159/197699213-bf282fd0-619d-46a5-a6bd-ad5e885b7ede.png)
+
 PPINtonus is a network for the early detection of Parkinson's Disease utilizing deep-learning
 tonal analysis, a cost-effective and coherent alternative to neurological examinations for
 diagnosing Parkinson's Disease. Partnering with the Parkinson's Voice Project (PVP), gaining
