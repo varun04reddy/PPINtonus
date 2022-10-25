@@ -2,6 +2,7 @@ import parselmouth
 
 import glob
 import os.path
+import pandas as pd
 
 for wave_file in glob.glob("audio/*.wav"):
     print("Processing {}...".format(wave_file))
@@ -27,7 +28,7 @@ dataframe['harmonics_to_noise'] = dataframe.apply(analyse_sound, axis='columns')
 # Write out the updated dataframe
 dataframe.to_csv("processed_results.csv", index=False)
 
-import pandas as pd
+
 
 print(pd.read_csv("other/results.csv"))
 
